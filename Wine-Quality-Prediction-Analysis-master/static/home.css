@@ -1,0 +1,18 @@
+*{
+margin:0px;
+padding:0px;
+boc-sizing: border-box;
+}
+h1{
+padding:30px;
+}
+body{
+background-image: url('static/Wine.jpg');
+background-color: rgb(219,226,226)
+}
+.row{
+background-color: gray;
+border-radius: 30px;
+}
+.inputs{
+border-radius:20px;}

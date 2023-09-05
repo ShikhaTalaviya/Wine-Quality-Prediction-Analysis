@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="{%static 'home.css'%}">
+
+    <title>Hello, world!</title>
+
+  </head>
+  <body>
+  <section class="form my-4 mx-5">
+      <div class="container" >
+          <h1> Wine quality predective analysis</h1>
+          <div class="row no-gutters">
+              <div class="col-lg-9">
+                  <form action="predict" >
+                      <div class="form-row">
+                          <div class="inputs">
+                          <div class="col-lg-9">
+                              <input type="text" class="form-control" name=" fixed" placeholder="fixed acidity"><br>
+                              </div>
+                          </div></div>
+                              <div class="form-row">
+                          <div class="col-lg-9">
+                              <input type="text" class="form-control" name=" volatile" placeholder="volatile acidity"><br>
+                              </div>
+                      </div>
+                              <div class="form-row">
+                          <div class="col-lg-9">
+                              <input type="text" class="form-control" name=" citric" placeholder="citric acid"><br>
+                              </div>
+                      </div>
+                              <div class="form-row">
+                          <div class="col-lg-9">
+                              <input type="text" class="form-control" name=" residual" placeholder="residual sugar"><br>
+                              </div>
+                      </div>
+                              <div class="form-row">
+                          <div class="col-lg-9">
+                              <input type="text" class="form-control" name=" chlorides" placeholder="chlorides"><br>
+                              </div>
+                      </div>
+                              <div class="form-row">
+                          <div class="col-lg-9">
+                              <input type="text" class="form-control" name=" free" placeholder="free sulfur dioxide"><br>
+                              </div>
+                      </div>
+                              <div class="form-row">
+                          <div class="col-lg-9">
+                              <input type="text" class="form-control" name=" density" placeholder="density"><br>
+                              </div>
+                      </div>
+                              <div class="form-row">
+                          <div class="col-lg-9">
+                              <input type="text" class="form-control" name=" PH" placeholder="PH value"><br>
+                              </div>
+                      </div>
+                              <div class="form-row">
+                          <div class="col-lg-9">
+                              <input type="text" class="form-control" name=" sulphates" placeholder="sulphates"><br>
+                              </div>
+                      </div>
+                              <div class="form-row">
+                          <div class="col-lg-9">
+                              <input type="text" class="form-control" name=" alcohol" placeholder="alcohol"><br>
+                              </div>
+                      </div>
+                              <div class="form-row">
+                          <div class="col-lg-9">
+                              <input type="text" class="form-control" name="type" placeholder="wine type"><br>
+                              </div>
+                      </div>
+                              </div>
+                      </div>
+                              <div class="form-row">
+                          <div class="col-lg-9">
+                              <input type="submit" >
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  </body>
+</html>
